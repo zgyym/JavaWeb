@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #div1{
+            width: 400px;
+            height: 400px;
+            background-color: crimson;
+
+            border-width: 1px;
+            border-color: darkblue;
+            border-style: solid;
+        }
+        #div2{
+            width: 150px;
+            height: 150px;
+            background-color: chocolate;
+
+            margin-top: 100px;
+            margin-left: 100px;
+
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+        #div3{
+            width:100px;
+            height:100px;
+            background-color:aquamarine;
+
+            /*
+            margin-left: 50px;
+            margin-top: 50px;
+            存在问题，
+             */
+
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div id="div2">
+            <div id="div3">&nbsp</div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--
+IE浏览器：实际尺寸 = width
+chrome浏览器：实际尺寸= width+左右borderwidth+padding
+
+
+CSS盒子模型：
+1.border 边框
+2.margin 间距
+3.padding 填充
+
+-->

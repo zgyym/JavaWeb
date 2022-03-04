@@ -1,0 +1,20 @@
+/* ID样式 */
+#p1{
+    font-size: 50px;
+    font-style: italic;
+    font-family: 华文彩云;
+    font-weight: bolder;
+    background-color: cyan;
+}
+
+/* 组合样式 */
+/* 下面的样式只能用于div的p */
+div p{
+    color: blue;
+}
+
+/* 以下的类样式只能用于div中 */
+div .f32{
+    font-size:32px;
+    font-family: 华文彩云;
+}
