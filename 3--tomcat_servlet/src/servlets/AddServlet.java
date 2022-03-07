@@ -12,6 +12,9 @@ import java.io.IOException;
 public class AddServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        request.setCharacterEncoding("UTF-8");
+
         String fname = request.getParameter("fname");
         String priceStr = request.getParameter("price");
         int price = Integer.parseInt(priceStr);
