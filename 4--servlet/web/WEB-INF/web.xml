@@ -12,6 +12,7 @@
         <url-pattern>/demo01</url-pattern>
     </servlet-mapping>
 
+
     <servlet>
         <servlet-name>Demo02Servlet</servlet-name>
         <servlet-class>servlets.Demo02Servlet</servlet-class>
@@ -21,6 +22,75 @@
         <servlet-name>Demo02Servlet</servlet-name>
         <url-pattern>/demo02</url-pattern>
     </servlet-mapping>
-    
-    
+
+
+    <servlet>
+        <servlet-name>Demo03Servlet</servlet-name>
+        <servlet-class>servlets.Demo03Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo03Servlet</servlet-name>
+        <url-pattern>/demo03</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Demo04Servlet</servlet-name>
+        <servlet-class>servlets.Demo04Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo04Servlet</servlet-name>
+        <url-pattern>/demo04</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Demo05Servlet</servlet-name>
+        <servlet-class>servlets.Demo05Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo05Servlet</servlet-name>
+        <url-pattern>/demo05</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Demo06Servlet</servlet-name>
+        <servlet-class>servlets.Demo06Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo06Servlet</servlet-name>
+        <url-pattern>/demo06</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Demo07Servlet</servlet-name>
+        <servlet-class>servlets.Demo07Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo07Servlet</servlet-name>
+        <url-pattern>/demo07</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Demo08Servlet</servlet-name>
+        <servlet-class>servlets.Demo08Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo08Servlet</servlet-name>
+        <url-pattern>/demo08</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Demo09Servlet</servlet-name>
+        <servlet-class>servlets.Demo09Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo09Servlet</servlet-name>
+        <url-pattern>/demo09</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
