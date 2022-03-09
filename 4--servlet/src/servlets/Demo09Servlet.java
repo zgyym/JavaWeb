@@ -13,7 +13,7 @@ public class Demo09Servlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("demo09...");
-        
+
 
         HttpSession session = req.getSession();
         System.out.println(session.getId());
