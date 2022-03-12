@@ -153,6 +153,10 @@
     6） 使用thymeleaf的标签
       th:if   ,  th:unless   , th:each   ,   th:text
 
+
+    7）IndexServlet类要去继承ViewBaseServlet类，在IndexServlet中获取List对象，将list对象保存到session的
+       作用域，然后调用父类的processTemplate()方法
+
 // 200 : 正常响应
 // 404 : 找不到资源
 // 405 : 请求方式不支持
