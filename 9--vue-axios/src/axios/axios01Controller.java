@@ -7,9 +7,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet("/axios01.do")
-public class axios01Controller extends HttpServlet{
+public class Axios01Controller extends HttpServlet{
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
@@ -19,6 +20,14 @@ public class axios01Controller extends HttpServlet{
 
         System.out.println("uname = " + uname);
         System.out.println("pwd = " + pwd);
+
+        response.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
+        PrintWriter out = response.getWriter();
+        out.write(uname + "_" + pwd);
+
+        throw new NullPointerException("空指针异常");
+
 
     }
 }

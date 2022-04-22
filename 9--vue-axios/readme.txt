@@ -33,7 +33,7 @@
        v-if和v-else之间不能有其他的节点
        v-show是通过样式表display来控制节点是否显示
     5) v-for 迭代
-       v-for={fruit in fruitList}
+       v-for="fruit in fruitList"
     6) v-on 绑定事件
     7) 其他：
        - trim:去除首尾空格 , split() , join()
@@ -77,7 +77,7 @@
         </student>
       </students>
       JSON格式表示两个学员信息的代码如下：
-      [{sid:"s001",age:18},{sid:"s002",age:19}]
+      [{sid:"s001",sname:"jim",age:18},{sid:"s002",sname:"tom",age:19}]
     - JSON表达数据更简洁，更能够节约网络带宽
     - 客户端发送JSON格式的数据给服务器端
     1) 客户端中params需要修改成：  data:
